@@ -1,0 +1,160 @@
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>华南理工大学</title>
+    <link rel="stylesheet" href="style.css">
+<style>
+  .top {
+    width: 100%;
+  }
+  .tab {
+    background: #ededed;
+    color: currentcolor;
+    padding: 14px 24px;
+    font-size: .22rem;
+  }
+  .item {
+    display: flex;
+    padding: 16px 24px;
+    border-bottom: #c3c3c3;
+    border-bottom-style: solid;
+  }
+  .item img {
+    width: 0.7rem;
+    height: 0.7rem;
+  }
+  .item li {
+    font-size: .3rem;
+    line-height: .65rem;
+    padding: 0 16px;
+  }
+  a, a:visited, a:hover {
+    color: currentcolor;
+  }
+</style>
+  </head>
+
+  <body>
+    <ul class="top">
+      <div class="item">
+        <img src="img/message.png">
+        <li>消息</li>
+      </div>
+      <div class="item">
+        <img src="img/contact.png">
+        <li>企业通讯录</li>
+      </div>
+      <div class="item">
+        <img src="img/me.png">
+        <li>我</li>
+      </div>
+    </ul>
+    <ul class="top">
+      <li class="tab">置顶应用</li>
+      <a href="pass.html">
+        <div class="item" onclick="click()">
+          <img src="img/logo.png">
+          <li>My Pass 我的通行证</li>
+        </div>
+      </a>
+      <div class="item">
+        <img src="img/card.png">
+        <li>校园一卡通</li>
+      </div>
+    </ul>
+    <ul class="top">
+      <li class="tab">B</li>
+      <div class="item">
+        <img src="img/teach.png">
+        <li>本科教务管理系统</li>
+      </div>
+    </ul>
+    <ul class="top">
+      <li class="tab">C</li>
+      <div class="item">
+        <img src="img/logo.png">
+        <li>财务处</li>
+      </div>
+    </ul>
+    <ul class="top">
+      <li class="tab">D</li>
+      <div class="item">
+        <img src="img/logo.png">
+        <li>党委宣传部</li>
+      </div>
+      <div class="item">
+        <img src="img/logo.png">
+        <li>大学城校区</li>
+      </div>
+    </ul>
+    <ul class="top">
+      <li class="tab">F</li>
+      <div class="item">
+        <img src="img/logo.png">
+        <li>分析测试中心</li>
+      </div>
+    </ul>
+    <ul class="top">
+      <li class="tab">G</li>
+      <div class="item">
+        <img src="img/logo.png">
+        <li>国际校区综合办</li>
+      </div>
+    </ul>
+    <ul class="top">
+      <li class="tab">J</li>
+      <div class="item">
+        <img src="img/logo.png">
+        <li>纪委办公室、监察处</li>
+      </div>
+    </ul>
+    <ul class="top">
+      <li class="tab">K</li>
+      <div class="item">
+        <img src="img/logo.png">
+        <li>科学技术研究院</li>
+      </div>
+    </ul>
+    <ul class="top">
+      <li class="tab">J</li>
+      <div class="item">
+        <img src="img/logo.png">
+        <li>师生服务中心</li>
+      </div>
+      <div class="item">
+        <img src="img/logo.png">
+        <li>实验室与设备管理处</li>
+      </div>
+    </ul>
+    <ul class="top">
+      <li class="tab">T</li>
+      <div class="item">
+        <img src="img/logo.png">
+        <li>通知公告</li>
+      </div>
+    </ul>
+  </body>
+  <footer>
+    <script>
+      ;(function () {
+        document.getElementsByTagName('a')[0].href = "pass.html" + window.location.search
+      })()
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TMYV2C1HDD"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-TMYV2C1HDD');
+      
+      // let u = new URL(document.location)
+      // if (u.host !== 'mypass.nyya.eu') {
+      //   u.host = 'mypass.nyya.eu'
+      //   document.location = u.toString()
+      // }
+    </script>
+  </footer>
+</html>
